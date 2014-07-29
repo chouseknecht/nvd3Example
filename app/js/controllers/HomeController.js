@@ -13,7 +13,7 @@ var mod = angular.module('sampleAppControllers', []);
 
 mod.controller('HomeController', ['$scope', '$http', '$log',
 function($scope, $http, $log) {
-    var url = '/data/plotwatt_appliance_data.csv',
+    var url = '/app/data/plotwatt_appliance_data.csv',
         baseData = [];
 
     $http({ method:'GET', url: url })
