@@ -14,7 +14,7 @@ var myApp = angular.module('sampleApp', ['ngRoute', 'sampleAppControllers']);
 myApp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.
         when('/', {
-            templateUrl: '/app/partials/home.html',
+            templateUrl: '/nvd3Example/app/partials/home.html',
             controller: 'HomeController'
         });
 }]);
