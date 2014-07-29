@@ -1,0 +1,13 @@
+{
+  "name": "nvd3Example",
+  "private": false,
+  "dependencies": {
+    "angular-resource": "~1.2.12",
+    "angular-sanitize": "~1.2.12",
+    "bootstrap": "~3.1.1",
+    "components-font-awesome": "~4.0.3",
+    "less.js": "~1.6.3",
+    "angular-route": "~1.2.21",
+    "nvd3": "~1.1.15-beta"
+  }
+}

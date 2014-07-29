@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app="sampleApp">
+<head>
+    <meta charset="utf-8">
+    <title>nvd3Example | NVD3js and AngularJS</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/lib/components-font-awesome/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="/lib/nvd3/nv.d3.min.css" >
+    <link rel="stylesheet/less" type="text/css" href="/less/sampleApp.less" >
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/angular/angular.min.js"></script>
+    <script src="/lib/angular-route/angular-route.min.js"></script>
+    <script src="/lib/angular-resource/angular-resource.min.js"></script>
+    <script src="/lib/angular-sanitize/angular-sanitize.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div ng-view id="main-view"></div>
+            </div>
+        </div> <!-- row -->
+    </div><!-- container -->
+
+    <div class="footer navbar-default navbar-fixed-bottom">
+        <div class="container">
+            Copyright &copy; 2014 by <a href="http://twitter.com/chouseknecht">Chris Houseknecht</a><br \>
+        </div>
+    </div>
+
+    <script src="/lib/less.js/dist/less-1.6.2.min.js"></script>
+    <script src="/js/controllers/HomeController.js"></script>
+    <script src="/js/sampleApp.js"></script>
+    <script src="/lib/d3/d3.min.js"></script>
+    <script src="/lib/nvd3/nv.d3.js"></script>
+
+</body>
+</html>
